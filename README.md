@@ -43,7 +43,7 @@ ESP32 Development Board
 
 Soil Moisture Sensor
 
-DHT11/DHT22 (Temperature & Humidity)
+DHT11 (Temperature & Humidity)
 
 LDR for Light Intensity
 
@@ -58,7 +58,7 @@ streamlit run agri_dashboard.py
 
 ESP32 reads sensor values every second.
 
-Sends data via serial to Python app.
+Sends data via serial to the Python app.
 
 Each sensor's Q-learning agent selects an action (Wait, Actuate, Alert).
 
